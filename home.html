@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="home.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.flaticon.com/free-icons/to-do-list" type="image/x-icon">
+<link rel="shortcut icon" href="list.png" type="image/x-icon">
+</head>
+<body>
+    <div class="addNew">
+        <img src="image-10.jpg" alt="img" class="img">
+        <nav class="navCont">
+            <span class="tangerine">Be stronger than your strongest excuse.!</span>
+            <ul>
+                <li class="list"><button class="newBtn" id="addEntryBtn">Add new entry </button></li>
+                <li class="list"><button class="newBtn" id="logoutBtn">Logout</button></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>    
+    <div class="enterNew">
+        <form>
+            <label for="text">Enter text</label><br>
+            <textarea placeholder="Enter your text here" id="text" rows="10" cols="20"></textarea><br/>
+            <label for="date">Enter date: </label>
+            <input type="date" name="date" id="date" ><br><br>
+            <button type="submit" class="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <div class="submitted" id="submtCont">
+        <div class="newValue">
+            <div class="showDate"></div>
+            <div class="showTxt"></div>
+        </div>
+        <div class="btnGp">
+            <label for="Completed"> Completed</label>
+            <input type="checkbox" id="Completed" name="Completed">
+            <button class="newBtn deleteBtn">Delete</button>
+        </div>
+    </div>
+     <script src="home.js"></script>
+</body>
+</html>

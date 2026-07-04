@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.addNew{
+    width: 100%;
+    background-color: #FFB6C1; 
+    padding: 10px 20px;
+}.navCont{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 100%;
+}.navCont ul{
+    list-style: none; 
+}.list{
+    display: inline-block;
+}hr{
+    border: 1px solid rgb(238, 10, 170);
+}.newBtn{
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    cursor: pointer;
+}.img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+}.enterNew{
+    background-color:#FFB6C1;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-size: 24px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}.enterNew textarea, .enterNew input{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}.submitted{
+    background-color: whitesmoke;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 90px; 
+    left: 20px;
+    z-index: 5;
+    padding: 25px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}.newValue{
+    text-align: left;
+    width: 100%;
+}.showDate{
+    font-size: 14px;
+    color: #E75480;
+    font-weight: bold;
+    margin-bottom: 5px;
+}.showTxt{
+    font-size: 18px;
+    word-wrap: break-word;
+}.btnGp{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}.submitted .newBtn{
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: #4E3524;
+    color: white;
+}.submitted .deleteBtn{
+    background-color: #8B0000;
+}.submitBtn{
+    font-family: "Risque", serif;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e61162;
+    color: white;
+    cursor: pointer;
+}.tangerine{
+    font-family: "Tangerine", cursive;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 50px;
+}.enterNew{
+    display: none;
+}.enterNew.show{
+    display: block;
+}.entry-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f510bc;
+}
